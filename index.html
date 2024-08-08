@@ -18,8 +18,7 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#portafolio">Mi Portafolio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
             </ul>
         </nav>
     </header>
@@ -32,11 +31,12 @@
             <p>En esta sección, quiero compartir contigo algunos de los proyectos que he llevado a cabo. Aunque son como
                 pequeños experimentos, cada uno de ellos me ha enseñado algo nuevo y me ha ayudado a crecer como
                 desarrollador front-end. Son la prueba de que disfruto mucho aprender y poner en práctica nuevas
-                técnicas. ¡Espero que te gusten!</p>
+                técnicas. ¡Espero que te gusten!
+            </p>
         </section>
 
         <!-- Sección sobre mí -->
-        <section id="sobre-mi">
+        <section id="sobre-mi" class="sobre-mi">
             <h2>Sobre Mí</h2>
             <div class="presentacion">
                 <p>Mi nombre es Rodrigo Fernández, soy desarrollador front-end con experiencia en HTML, CSS, JavaScript
@@ -46,70 +46,42 @@
             </div>
         </section>
 
-        <!-- Sección de portafolio -->
-        <section id="portafolio-1">
-            <h2>Portafolio Personal</h2>
-            <div class="proyecto-pres">
-                <img src="img/portafolio.webp" alt="">
-                    <button class="button"><a href="https://rodrigofernandez.vercel.app/" target="_blank">Ir a Portafolio</a>
-                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="icon">
-                            <path
-                                d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z">
-                            </path>
+        <section id="Proyectos" class="proyecto-1">
+            <div class="proyecto-1-div">
+                <div class="proyecto">
+                    <h3>Proyecto 1</h3>
+                    <p>Galería con efecto al pasar por encima. <a class="animated-button" href="https://github.com/RodrigoFernandez1/galeria-en-html-css">
+                        <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
                         </svg>
-                    </button>
-            </div>
-
-            </a>
+                        <span class="text">GitHub</span>
+                        <span class="circle"></span>
+                        <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                    </a></p>
+                    <video controls width="300" height="200" autoplay loop muted>
+                        <source src="/video/Grabación 2024-08-05 200003.webm" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </section>
 
-        <section id="portafolio">
-            <h2>proyectos</h2>
-            <div class="proyecto">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto.</p>
-                <img src="img/galeria.png" alt="">
-                <a href="enlace-proyecto1.html">Ver más</a>
-            </div>
-            <div class="proyecto">
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="enlace-proyecto2.html">Ver más</a>
-            </div>
-            <!-- Más proyectos -->
-        </section>
+        <!-- Pie de página -->
+        <footer>
+            <p>&copy; 2024 <a class="enlace" href="https://rodrigofernandez.vercel.app/">Rodrigo fernandez</a>. Todos los derechos reservados.</p>
+            <ul>
+                <li><a href="https://github.com/RodrigoFernandez1" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/rodrigofernandez-/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </footer>
 
-        <!-- Sección de contacto -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form action="procesar-contacto.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2024 Rodrigo Fernández. Todos los derechos reservados.</p>
-        <ul>
-            <li><a href="https://twitter.com/miusuario" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/miusuario" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/miusuario/" target="_blank">LinkedIn</a></li>
-        </ul>
-    </footer>
-
-    <!-- Scripts de JavaScript -->
-    <script src="script.js"></script>
+        <!-- Scripts de JavaScript -->
+        <script src="script.js"></script>
 </body>
 
 </html>
