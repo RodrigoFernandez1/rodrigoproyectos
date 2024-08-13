@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodrigo Fernández - portafolio 2.0</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Rodrigo Fernández</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/cars-recurso.css">
 </head>
 
 <body>
-    <div
-        class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]">
-    </div>
-    <!-- Encabezado principal del documento -->
     <header>
         <nav>
             <ul>
@@ -27,61 +27,88 @@
     <main>
         <!-- Sección de inicio -->
         <section id="inicio" class="sección-pre">
-            <h1>Creaciones Web: Un Viaje a través de Mis Proyectos</h1>
-            <p>En esta sección, quiero compartir contigo algunos de los proyectos que he llevado a cabo. Aunque son como
-                pequeños experimentos, cada uno de ellos me ha enseñado algo nuevo y me ha ayudado a crecer como
-                desarrollador front-end. Son la prueba de que disfruto mucho aprender y poner en práctica nuevas
-                técnicas. ¡Espero que te gusten!
-            </p>
-        </section>
+            <div class="sección-pre-1">
+                <h1>Creaciones Web: Un Viaje a través de Mis Proyectos</h1>
+                <p>En esta sección, quiero compartir contigo algunos de los proyectos que he llevado a cabo. Aunque son
+                    como
+                    pequeños experimentos, cada uno de ellos me ha enseñado algo nuevo y me ha ayudado a crecer como
+                    desarrollador front-end. Son la prueba de que disfruto mucho aprender y poner en práctica nuevas
+                    técnicas. ¡Espero que te gusten!
+                </p>
 
-        <!-- Sección sobre mí -->
-        <section id="sobre-mi" class="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <div class="presentacion">
-                <p>Mi nombre es Rodrigo Fernández, soy desarrollador front-end con experiencia en HTML, CSS, JavaScript
-                    y
-                    React.</p>
+                <div class="redes">
+                    <a href=""><i class='bx bxl-linkedin-square' style='color:#004aff'></i></a>
+                    <a href=""><i class='bx bxl-github' undefined></i></a>
+                </div>
+            </div>
+            <div class="sección-pre-2">
                 <img class="img-1" src="img/rodrigofernandez.webp" alt="Foto de Rodrigo Fernández">
             </div>
         </section>
-
-        <section id="Proyectos" class="proyecto-1">
-            <div class="proyecto-1-div">
-                <div class="proyecto">
-                    <h3>Proyecto 1</h3>
-                    <p>Galería con efecto al pasar por encima. <a class="animated-button" href="https://github.com/RodrigoFernandez1/galeria-en-html-css">
+    </main>
+    <section id="Proyectos" class="proyecto-1">
+        <div class="proyecto-1-div">
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Galería con efecto al pasar por encima. <a class="animated-button"
+                        href="https://github.com/RodrigoFernandez1/galeria-en-html-css">
                         <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                          ></path>
+                            <path
+                                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                            </path>
                         </svg>
                         <span class="text">GitHub</span>
                         <span class="circle"></span>
                         <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                          ></path>
+                            <path
+                                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                            </path>
                         </svg>
                     </a></p>
-                    <video controls width="300" height="200" autoplay loop muted>
-                        <source src="/video/Grabación 2024-08-05 200003.webm" type="video/mp4">
-                    </video>
-                </div>
+                <video controls width="300" height="200" autoplay loop muted>
+                    <source src="/video/Grabación 2024-08-05 200003.webm" type="video/mp4">
+                </video>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Pie de página -->
-        <footer>
-            <p>&copy; 2024 <a class="enlace" href="https://rodrigofernandez.vercel.app/">Rodrigo fernandez</a>. Todos los derechos reservados.</p>
-            <ul>
-                <li><a href="https://github.com/RodrigoFernandez1" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/rodrigofernandez-/" target="_blank">LinkedIn</a></li>
-            </ul>
-        </footer>
+    <section class="recursos" id="recursos">
+        <div class="Recursos-etique">
+            <a href="#" class="js-create_video ag-create_item">
+                <video muted="" playsinline="">
+                    <source
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-svg-video/video/mac-xpa-r.mp4"
+                        type="video/mp4">
+                    <source
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-svg-video/video/mac-xpa-r.webm"
+                        type="video/webm">
+                </video>
 
-        <!-- Scripts de JavaScript -->
-        <script src="script.js"></script>
+                <svg viewBox="0 0 411 431" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <polygon class="cls-1" points="0.5 430.5 340.31 430.5 410.5 361.03 410.5 0.5 0.5 0.5 0.5 430.5">
+                    </polygon>
+                    <polygon class="cls-2" points="355.17 430.5 410.33 375.33 410.33 430.5 355.17 430.5"></polygon>
+                    <polygon class="cls-3" points="355.17 430.5 410.33 375.33 410.33 430.5 355.17 430.5"></polygon>
+                    <line class="cls-4" x1="395" x2="395" y1="410" y2="419"></line>
+                    <line class="cls-4" x1="399.5" x2="390.5" y1="414.5" y2="414.5"></line>
+                </svg>
+
+                <div class="ag-create_title-item">Web<br>Development</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 <a class="enlace" href="https://rodrigofernandez.vercel.app/">Rodrigo fernandez</a>. Todos
+            los derechos reservados.</p>
+        <ul>
+            <li><a href="https://github.com/RodrigoFernandez1" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/rodrigofernandez-/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/cars.js"></script>
 </body>
 
 </html>

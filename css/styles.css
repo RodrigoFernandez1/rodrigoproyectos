@@ -9,18 +9,20 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   color: #333;
-  padding: 30px;
   background-color: #f0f5f9;
 }
 
 /* Estilos para el encabezado y la navegación */
 header {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 20px 0;
   text-align: center;
 }
 
+main {
+  padding: 2%;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -46,7 +48,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  gap: 10%;
   margin: 20px 0;
   padding: 20px;
   color: #1e2022;
@@ -54,15 +56,31 @@ nav ul li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*sobre mi*/
-.sobre-mi {
-  margin: 20px 0;
-  padding: 20px;
-  background-color: #bfc7d1;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.sección-pre-1 {
+  flex-direction: column;
+  width: 90%;
 }
 
+.sección-pre-2 img {
+  max-width: 100%;
+  width: 200%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.redes {
+  padding-top: 2%;
+  font-size: 190%;
+}
+/*sobre mi
+  .sobre-mi {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #bfc7d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  */
 
 .proyecto-1 {
   display: grid;
@@ -70,7 +88,7 @@ nav ul li a:hover {
   gap: 8px;
   margin: 0em;
   padding: 0;
-  padding-bottom: 4%
+  padding-bottom: 4%;
 }
 
 .proyecto-1-div {
@@ -224,11 +242,33 @@ img {
   color: #788189;
 }
 
+.recursos {
+  margin: 20px 0;
+  gap: 2%;
+  padding: 20px;
+  background-color: #287adf;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recursos img {
+  width: 15%;
+}
+
+.recursos-etique {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffa600;
+}
+
 /* Estilos para el pie de página */
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   margin-top: 0;
   border-top: 4px solid #007bff;
