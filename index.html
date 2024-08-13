@@ -9,23 +9,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <title>Rodrigo Fernández</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/cars-recurso.css">
 </head>
 
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#Proyectos">Proyectos</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <!-- Sección principal de contenido -->
-    <main>
-        <!-- Sección de inicio -->
+    <main class="showcase">
+        <header>
+            <h2 class="logo">PROYECS rodrigo fernandez</h2>
+            <div class="toggle"></div>
+        </header>
+        <div class="overlay"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="">Recursos</a></li>
+            </ul>
+        </div>
         <section id="inicio" class="sección-pre">
             <div class="sección-pre-1">
                 <h1>Creaciones Web: Un Viaje a través de Mis Proyectos</h1>
@@ -36,13 +39,11 @@
                     técnicas. ¡Espero que te gusten!
                 </p>
 
-                <div class="redes">
-                    <a href=""><i class='bx bxl-linkedin-square' style='color:#004aff'></i></a>
-                    <a href=""><i class='bx bxl-github' undefined></i></a>
-                </div>
-            </div>
-            <div class="sección-pre-2">
-                <img class="img-1" src="img/rodrigofernandez.webp" alt="Foto de Rodrigo Fernández">
+                <ul class="social">
+                    <li><a href="#"><img src="https://i.ibb.co/m4y3b8L/5d8edb5f-78a9-412e-a520-01d3f6eff912-removebg-preview-1.jpg"></a></li>
+                    <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+                    <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+                </ul>
             </div>
         </section>
     </main>
@@ -109,6 +110,7 @@
     </footer>
 
     <script src="/js/cars.js"></script>
+    <script src="/js/menu.js"></script>
 </body>
 
 </html>

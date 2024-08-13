@@ -9,20 +9,19 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f0f5f9;
+  background: rgb(7.5, 2.7, 22.7);
 }
 
-/* Estilos para el encabezado y la navegación */
 header {
-  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   color: #fff;
-  padding: 20px 0;
-  text-align: center;
+  z-index: 10;
+  width: 100%;
 }
 
-main {
-  padding: 2%;
-}
 nav ul {
   list-style: none;
   padding: 0;
@@ -61,17 +60,48 @@ nav ul li a:hover {
   width: 90%;
 }
 
-.sección-pre-2 img {
-  max-width: 100%;
-  width: 200%;
-  height: auto;
-  border-radius: 8px;
+.sección-pre-1 h1 {
+  font-size: 3.59em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  padding-bottom: 1%;
+  text-transform: uppercase;
 }
 
-.redes {
-  padding-top: 2%;
-  font-size: 190%;
+.sección-pre-1 p {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
 }
+
+.social {
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+
 /*sobre mi
   .sobre-mi {
     margin: 20px 0;
