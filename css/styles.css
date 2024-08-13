@@ -117,7 +117,7 @@ nav ul li a:hover {
   grid-template-columns: repeat(5, 1fr);
   gap: 8px;
   margin: 0em;
-  padding: 0;
+  padding: 5%;
   padding-bottom: 4%;
 }
 
@@ -275,8 +275,7 @@ img {
 .recursos {
   margin: 20px 0;
   gap: 2%;
-  padding: 20px;
-  background-color: #287adf;
+  padding: 5%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
