@@ -7,3 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
     showcase.classList.toggle("active");
   });
 });
+
+
