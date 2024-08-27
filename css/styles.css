@@ -101,35 +101,8 @@ nav ul li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
-/*sobre mi
-  .sobre-mi {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #bfc7d1;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  */
-
-.proyecto-1 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 8px;
-  margin: 0em;
-  padding: 5%;
-  padding-bottom: 4%;
-}
-
-.proyecto-1-div {
+.proyectos {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 21em;
-  padding: 1em;
-  background-color: #1e2022;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* From Uiverse.io by gharsh11032000 */
@@ -147,8 +120,8 @@ nav ul li a:hover {
   font-size: 16px;
   background-color: inherit;
   border-radius: 100px;
-  color: rgb(255, 255, 255);
-  box-shadow: 0 0 0 2px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 2px rgb(0, 0, 0);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -157,7 +130,7 @@ nav ul li a:hover {
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: rgb(255, 255, 255);
+  fill: rgb(0, 0, 0);
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -191,7 +164,7 @@ nav ul li a:hover {
 
 .animated-button:hover {
   box-shadow: 0 0 0 12px transparent;
-  color: #212121;
+  color: #000000;
   border-radius: 12px;
 }
 
@@ -208,12 +181,12 @@ nav ul li a:hover {
 }
 
 .animated-button:hover svg {
-  fill: #212121;
+  fill: #000000;
 }
 
 .animated-button:active {
   scale: 0.95;
-  box-shadow: 0 0 0 4px greenyellow;
+  box-shadow: 0 0 0 4px rgb(0, 0, 0);
 }
 
 .animated-button:hover .circle {
@@ -227,7 +200,7 @@ nav ul li a:hover {
 }
 
 .sección-pre p {
-  color: #52616b;
+  color: #ffffff;
 }
 
 .img-1 {
@@ -235,7 +208,7 @@ nav ul li a:hover {
 }
 
 .icon {
-  fill: white;
+  fill: rgb(0, 0, 0);
   width: 1em;
   aspect-ratio: 1;
   top: 0;
@@ -253,30 +226,18 @@ img {
 
 /* Estilos específicos para el portafolio */
 
-.proyecto h3 {
-  margin-bottom: 10px;
-  color: #c9d6df;
-}
-
-.proyecto a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.proyecto a:hover {
-  text-decoration: underline;
-}
-
-.proyecto-1 p {
-  color: #788189;
-}
-
 .recursos {
   margin: 20px 0;
   gap: 2%;
   padding: 5%;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(232, 230, 230, 0.1);
+}
+
+.titu-proyec {
+  padding: 0.4%;
+  border-radius: 8px;
+  margin-left: 6%;
 }
 
 .recursos img {
@@ -289,7 +250,7 @@ img {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: #ffa600;
+  background-color: #ffffff;
 }
 
 /* Estilos para el pie de página */
